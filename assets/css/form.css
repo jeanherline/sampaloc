@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: rgb(219, 219, 219);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px;
+    background: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 100%;
+    margin-right: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header-icons i {
+    margin-right: 2rem;
+}
+
+.header-icons .account {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-icons .account img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Side menubar section */
+nav {
+    background: rgb(234, 247, 247);
+}
+
+.side_navbar {
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.side_navbar span {
+    color: rgb(0, 0, 0);
+    margin: 1rem 3rem;
+    font-size: 12px;
+}
+
+.side_navbar a {
+    width: 100%;
+    padding: 0.8rem 3rem;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+}
+
+.links {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    font-size: 13px;
+}
+
+.side_navbar a:hover {
+    background: rgb(235, 235, 235);
+    color: #0052a2;
+}
+
+.side_navbar .active {
+    border-left: 2px solid rgb(100, 100, 100);
+    color: #0052a2;
+}
+
+/* Main Body Section */
+.main-body {
+    width: 80%;
+    padding: 1rem;
+}
+
+.promo_card {
+    width: 90%;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 0.5rem 1rem 1rem 3rem;
+    background: #0052a2;
+}
+
+.add button {
+    display: inline;
+    background: #0052a2;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.promo_card h1,
+.promo_card span,
+button {
+    margin: 10px;
+}
+
+.list {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+/* Regist Section */
+
+
+input[type=submit] {
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    margin-left: 7rem;
+    padding: 8px 0;
+    border-radius: 5px;
+    width: 30%;
+    background: #0052a2;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background: rgba(122, 30, 30, 0.767);
+}
+
+.wrapper {
+    width: 100%;
+    padding: 3rem 1rem 10rem 5rem;
+    background: #fff;
+    border-radius: 10px;
+    text-align: left;
+
+}
+
+p {
+    margin-bottom: 1.7rem;
+}
+
+form label {
+    color: rgb(95, 94, 94);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+    display: inline-flex;
+}
+
+form input,
+select, textarea {
+    
+    width: 90%;
+    outline: none;
+    border: none;
+    background: #dfe9f5;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+    
+}
+
+
+.left {
+    float: left;
+    width: 49%;
+}
+
+.right {
+    float: right;
+    width: 49%;
+}
+
+button {
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    margin-left: 6rem;
+    padding: 8px;
+    border-radius: 5px;
+    width: 30%;
+    background: #0052a2;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgba(122, 30, 30, 0.767);
+}
